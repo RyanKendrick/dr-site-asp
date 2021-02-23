@@ -61,11 +61,11 @@
 						},
 						{
 							url1: "/assets/staging/res/7before.jpg",
-							url2: "/assets/staging/res/7after.jpg"
+							url2: "/assets/staging/res/8after.jpg"
 						},
 						{
 							url1: "/assets/staging/res/8before.jpg",
-							url2: "/assets/staging/res/8after.jpg"
+							url2: "/assets/staging/res/7after.jpg"
 						}
 					]
 				}

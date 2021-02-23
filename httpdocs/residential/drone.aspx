@@ -49,31 +49,31 @@
 							largeUrl: "/assets/drone-res/full/171chaplin-full.jpg"
 						},
 						{
-							thumbUrl: "/assets/drone-res/full/winter.jpg",
+							thumbUrl: "/assets/drone-res/web/winter-web.jpg",
 							largeUrl: "/assets/drone-res/full/winter.jpg"
 						},
 						{
-							thumbUrl: "/assets/drone-res/full/004.jpg",
+							thumbUrl: "/assets/drone-res/web/004-web.jpg",
 							largeUrl: "/assets/drone-res/full/004.jpg"
 						},
 						{
-							thumbUrl: "/assets/drone-res/full/006.jpg",
+							thumbUrl: "/assets/drone-res/web/006-web.jpg",
 							largeUrl: "/assets/drone-res/full/006.jpg"
 						},
 						{
-							thumbUrl: "/assets/drone-res/full/012.jpg",
+							thumbUrl: "/assets/drone-res/web/012-web.jpg",
 							largeUrl: "/assets/drone-res/full/012.jpg"
 						},
 						{
-							thumbUrl: "/assets/drone-res/full/014.jpg",
+							thumbUrl: "/assets/drone-res/web/014-web.jpg",
 							largeUrl: "/assets/drone-res/full/014.jpg"
 						},
 						{
-							thumbUrl: "/assets/drone-res/full/016.jpg",
+							thumbUrl: "/assets/drone-res/web/016-web.jpg",
 							largeUrl: "/assets/drone-res/full/016.jpg"
 						},
 						{
-							thumbUrl: "/assets/drone-res/full/017.jpg",
+							thumbUrl: "/assets/drone-res/web/017-web.jpg",
 							largeUrl: "/assets/drone-res/full/017.jpg"
 						}
 					]
