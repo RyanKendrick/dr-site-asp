@@ -58,8 +58,8 @@
 							largeUrl: "/assets/renderings/res/full/07.jpg"
 						},
 						{
-							thumbUrl: "/assets/renderings/res/web/08.jpg",
-							largeUrl: "/assets/renderings/res/full/08.jpg"
+							// thumbUrl: "/assets/renderings/res/web/08.jpg",
+							// largeUrl: "/assets/renderings/res/full/08.jpg"
 						},
 						{
 							thumbUrl: "/assets/photo7.jpg",
