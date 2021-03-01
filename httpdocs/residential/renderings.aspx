@@ -60,10 +60,6 @@
 						{
 							thumbUrl: "/assets/renderings/res/web/08.jpg",
 							largeUrl: "/assets/renderings/res/full/08.jpg"
-						},
-						{
-							thumbUrl: "/assets/photo7.jpg",
-							largeUrl: "/assets/photo7.jpg"
 						}
 					]
 				}
