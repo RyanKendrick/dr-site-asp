@@ -34,7 +34,7 @@
 							largeUrl: "/assets/comm-photos/01.jpg"
 						},
 						{
-							thumbUrl: "/assets/photos-comm/010.jpg",
+							thumbUrl: "/assets/photos-comm/010-thumb.jpg",
 							largeUrl: "/assets/photos-comm/010.jpg"
 						},
 						{
