@@ -6,9 +6,11 @@
 		
 		<div v-for="(img, index) in imgs">
 
-			<a :href="`#img${index}`">
-				<img class="grid-img" :src="img.thumbUrl">
-			</a>
+			<div class="thumbnail-box">
+				<a :href="`#img`">
+					<img class="grid-img" :src="img.thumbUrl">
+				</a>
+			</div>
 
 			<a href="#" class="lightbox" :id="`img${index}`">
 				<span :style="`background-image: url('${img.largeUrl}')`"></span>
@@ -21,6 +23,13 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptsContent" runat="server">
+	
+	<style>
+	.thumbnail-box {
+		height: 30vh;
+		width: 45vh;
+	}
+	</style>
 	
 	<script>
 

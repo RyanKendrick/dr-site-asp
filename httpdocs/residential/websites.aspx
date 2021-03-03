@@ -6,9 +6,11 @@
 		
 		<div v-for="(item, index) in items">
 
-			<a :href="item.url" target="_blank">
-				<img class="grid-img" :src="item.thumbUrl">
-			</a>
+			<div class="thumbnail-box">
+				<a :href="item.url" target="_blank">
+					<img class="grid-img" :src="item.thumbUrl">
+				</a>
+			</div>
 
 		</div>
 
@@ -17,6 +19,18 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptsContent" runat="server">
+	
+	<style>
+	.thumbnail-box {
+		height: 30vh;
+		width: 45vh;
+	}
+
+	.media-thumbs-grid img {
+		box-shadow: 10px 10px 15px black;
+		height: -webkit-fill-available;
+	}
+	</style>
 	
 	<script>
 
