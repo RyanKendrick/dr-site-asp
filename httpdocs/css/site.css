@@ -1,0 +1,415 @@
+﻿:root {
+	/* Gaps */
+	--gap-xs: 3px;
+	--gap-s: 6px;
+	--gap-m: 12px;
+	--gap-l: 24px;
+	--gap-xl: 48px;
+	--gap-xxl: 72px;
+	/* Font Sizes */
+	--font-size-s: 12px;
+	--font-size-m: 15px;
+	--font-size-l: 22px;
+	--font-size-xl: 28px;
+	--font-size-xxl: 36px;
+	--font-size-xxxl: 48px;
+	/* Shadows */
+	--box-shadow-m: 10px 10px 15px black;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	-overflow-x: hidden;
+	font-family: Lato, sans-serif;
+	font-size: var(--font-size-m);
+}
+
+h2 {
+	font-size: var(--font-size-xl);
+	font-weight: bold;
+	text-decoration: underline;
+	text-decoration-color: orange;
+	text-align: center;
+	margin: 0 0 var(--gap-xl) 0;
+}
+
+h3 {
+	font-size: var(--font-size-xl);
+	font-weight: bold;
+	text-align: left;
+	margin: 0 0 var(--gap-l) 0;
+}
+
+p {
+	margin: 0;
+}
+p+p {
+	margin-top: var(--gap-m);
+}
+
+a[onclick] {
+	cursor: pointer;
+}
+
+[v-cloak] {
+	display: none;
+}
+
+[hide] {
+	display: none;
+}
+
+.content-wrapper {
+	color: white;
+	margin: 0;
+	background-image: linear-gradient(to right, black, gray);
+}
+
+.centered-container {
+	margin: 0 auto;
+	padding: 0 var(--gap-l);
+	max-width: 1400px;
+	box-sizing: border-box;
+}
+
+.centered-container.no-padding {
+	padding: 0;
+}
+
+.layout-section {
+	padding: var(--gap-xxl) 0;
+}
+
+.layout-section.dark {
+	background-image: linear-gradient(to right, black, gray);
+	color: white;
+}
+
+@media (max-width:800px) {
+	.sml-screen-hide {
+		display: none !important;
+	}
+}
+
+@media (max-width:450px) {
+	.xs-screen-hide {
+		display: none !important;
+	}
+}
+
+
+
+
+@media (min-width:1001px) {
+	.mobile-screen-show {
+		display: none;
+	}
+}
+
+@media (max-width: 1000px) {
+	.mobile-screen-hide {
+		display: none !important;
+	}
+}
+
+
+
+
+
+
+/* #region Media grid */
+
+.media-thumbs-grid {
+	display: flex;
+	flex-wrap: wrap;
+	margin: calc(-1 * var(--gap-l));
+	justify-content: space-around;
+}
+
+.media-thumbs-grid > * {
+	margin: var(--gap-l);
+}
+
+.media-thumbs-grid img {
+	box-shadow: 10px 10px 15px black;
+    width: 100%;
+    height: -webkit-fill-available;
+}
+
+/* #endregion */
+
+
+
+/* #region Media modal */
+
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 1em;
+	background: rgba(1, 1, 1, 0.8);
+}
+
+/* Unhide the lightbox when it's the target */
+
+.lightbox:target {
+	display: block;
+}
+
+.lightbox span {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/* #endregion */
+
+
+
+/* #region Footer */
+
+footer {
+	background-color: white;
+	color: black;
+	font-size: var(--font-size-s);
+	padding: var(--gap-xl) 0;
+	position: relative;
+}
+
+.bottom-contact {
+	padding: 1vh 0 0 0;
+}
+
+.footer-lists-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-list-4 {
+	text-align: right;
+}
+
+.footer-list-4 div {
+	text-align: right;
+}
+
+.dr-logo-footer {
+	height: 60px;
+	margin-bottom: var(--gap-m);
+}
+
+@media (max-width: 800px) {
+	.dr-logo-footer {
+		height: 40px;
+		margin-bottom: var(--gap-s);
+	}
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.contact-title {
+	padding-bottom: 1vh;
+}
+
+.copyright {
+	color: grey;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: var(--gap-m);
+}
+
+
+/* #endregion */
+
+
+
+/* #region Banner */
+
+.banner {
+	background-image: var(--banner-img);
+	background-size: cover;
+	background-position: 50% 50%;
+	padding-bottom:80%;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 1;
+}
+
+.text-overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding: 11%; /* 1/10 and a little more */
+	z-index: 5;
+	display: grid;
+	align-items: center;
+}
+
+.banner h1 {
+	margin: 0;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-weight: bolder;
+	font-size: 90px;
+	line-height: .82em;
+	overflow: hidden;
+}
+
+@media (max-width:600px) {
+	.banner h1 {
+		font-size: 60px;
+	}
+}
+
+.grid-overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: grid;
+	grid-template-columns: repeat(10, 1fr);
+	grid-template-rows: repeat(8, 1fr);
+	border: 1px solid rgba(0, 0, 0, .15);
+	border-width: 0 1px 1px 0;
+}
+
+.grid-overlay > * {
+	transition: background 3s;
+	padding-bottom: 100%;
+}
+
+.grid-overlay .white {
+	background: white;
+	border: 0 !important;
+}
+
+.grid-overlay .dark {
+	background: rgba(0, 0, 0, .2);
+}
+
+.grid-overlay .darker {
+	background: rgba(0, 0, 0, .3);
+}
+
+.grid-overlay .darkest {
+	background: rgba(0, 0, 0, .4);
+}
+
+.grid-overlay * {
+	border: solid rgb(0, 0, 0, .15);
+	border-width: 1px 0 0 1px;
+	box-sizing: border-box;
+}
+
+/* #endregion */
+
+
+
+
+/* #region bile Menu / ns-float-panel */
+
+
+
+.mobile-menu-btn:before {
+	display: block;
+	content: 'menu';
+	font-family: 'Material Icons';
+	font-size: var(--font-size-xxxl);
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.mobile-menu {
+	--fadeTime: .18s;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	color: #fff;
+	background: #000;
+	max-height: 100vh;
+	min-width: min(400px, 100%);
+	box-sizing: border-box;
+	padding: var(--gap-l);
+	overflow: auto;
+	transition: transform var(--fadeTime);
+	transform: translateX(-100%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.mobile-menu a{
+	color: #fff;
+	font-size:var(--font-size-l);
+	-font-weight: bold;
+	padding: var(--gap-l);
+}
+
+.panel-close:before {
+	display: block;
+	content: 'close';
+	font-family: 'Material Icons';
+	font-size: var(--font-size-xxl);
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+
+.mobile-menu.show {
+	transform: translateX(0);
+}
+
+ns-float-panel[show=true] {
+	background: rgba(0, 0, 0, .1);
+}
+
+@media print {
+	ns-float-panel {
+		padding: 0 !important;
+		background: #fff !important;
+		position: absolute;
+		top: 100%; /* Since blanket is positioned relative to the body content and body content has been slid above the first page, this setting makes the top of the blanket 100% of the height of the body content from the top of the body content meaning that the top of this blanket is the bottom of the body content and therefore the top of the first print page. */
+		width: 100vw;
+		bottom: auto !important;
+		display: block;
+	}
+
+	.mobile-menu {
+		box-shadow: none !important;
+		width: 100%;
+		height: auto;
+		min-height: auto;
+		min-width: 100vw;
+		max-height: 100%; /* do not use auto, it is invalid in this case and will not override the other class*/
+		max-width: auto;
+		overflow: visible !important;
+	}
+}
+
+/* #endregion */

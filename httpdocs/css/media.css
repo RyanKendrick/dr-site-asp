@@ -1,0 +1,225 @@
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin: 0;
+    background-image: linear-gradient(to right, black, gray)
+}
+
+.media-blurb {
+    text-align: center;
+}
+
+.media-type-btns {
+    padding-bottom: 5vh;
+}
+
+
+
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+	font-size: var(--font-size-l);
+}
+
+@media (max-width: 1000px) {
+    .media-grid {
+        grid-template-columns: repeat(2, 1fr);
+		font-size: var(--font-size-m);
+    }
+}
+
+@media (max-width: 600px) {
+	.media-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.media-grid > * {
+	background-position: center;
+	background-size: cover;
+	font-weight: 700;
+	padding-bottom: 100%;
+	position: relative;
+}
+
+.media-grid-btn {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    color: white;
+    padding: 6px 12px;
+}
+
+.media-grid-btn:hover {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+
+
+
+
+
+
+.media-grid-btn span {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    display: inline-block;
+    position: relative;
+	background-color: rgba(0, 0, 0, .7);
+	padding: var(--gap-m);
+	border-radius: 4px;
+}
+
+.media-grid-btn:hover span {
+	background: transparent;
+}
+
+.media-grid-btn span:after {
+	background: none repeat scroll 0 0 transparent;
+	bottom: 0;
+	content: "";
+	display: block;
+	height: 2px;
+	left: 50%;
+	position: relative;
+	background: orange;
+	transition: width 0.3s ease 0s, left 0.3s ease 0s;
+	width: 0;
+}
+
+.media-grid > *:hover .media-grid-btn span:after {
+	width: 100%;
+	left: 0;
+}
+
+
+
+
+.photography {
+    background-image: url('/assets/res-photos/010.jpg');
+}
+
+.drone-services {
+    background-image: url('/assets/res-photos/res-aerial1.jpg'); 
+}
+
+.renderings {
+    background-image: url('/assets/rendering.png');
+}
+
+.videography {
+    background-image: url('/assets/backyard-img.jpg');
+}
+
+.staging {
+    background-image: url('/assets/res-photos/res-staging1.jpg');   
+}
+
+.feature-sheets {
+    background-image: url('/assets/feature-sheet.png');
+}
+
+.virtual-tour {
+    background-image: url('/assets/3d-tour.png');
+}
+
+.floor-plan {
+    background-image: url('/assets/floor-plan.png');
+}
+
+.website {
+    background-image: url('/assets/website.png');
+}
+
+/* comm photos */
+
+.photography-comm {
+    background-image: url('/assets/photo9.jpg');
+}
+
+.drone-services-comm {
+    background-image: url('/assets/drone-img.jpg'); 
+}
+
+.renderings-comm {
+    background-image: url('/assets/comm-photos/comm-render1.png');
+}
+
+.videography-comm {
+    background-image: url('/assets/comm-photos/comm-video1.png');
+}
+
+.staging-comm {
+    background-image: url('/assets/staging.png');   
+}
+
+.plane-photo-comm {
+    background-image: url('/assets/plane-photos/web/4.jpg');
+}
+
+.virtual-tour-comm {
+    background-image: url('/assets/comm-photos/comm-tour1.png');
+}
+
+.floor-plan-comm {
+    background-image: url('/assets/comm-photos/comm-floorplan1.jpg');
+}
+
+.website-comm {
+    background-image: url('/assets/staging/comm/1after.jpg');
+}
+
+.icon-grid {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    justify-content: space-around;
+    padding: 5vh;
+}
+
+.icon-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://static.wixstatic.com/media/a0b1e7_99b79e9dddee45bb9ce0d7f3e7f552d5~mv2.jpg");
+    background-size: 219px auto;
+    height: 20vh;
+    width: inherit;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-position: center;
+}
+
+.icon-item:hover {
+    opacity: .5;
+}
+
+.grid-img {
+    height: 15px;
+    align-self: center;
+}
+
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
