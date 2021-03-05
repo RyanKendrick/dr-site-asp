@@ -6,9 +6,11 @@
                 
 		<div v-for="(item, index) in items">
 
-			<a :href="`#img${index}`">
-				<img class="grid-img" :src="item.thumbUrl">
-			</a>
+			<div class="thumbnail-box">
+				<a :href="`#img`">
+					<img class="grid-img" :src="item.thumbUrl">
+				</a>
+			</div>
 
 			<a href="#" class="lightbox" :id="`img${index}`">
 				<span :style="`background-image: url('${item.largeUrl}')`"></span>
@@ -21,6 +23,20 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptsContent" runat="server">
+	
+	<style scoped>
+	.thumbnail-box {
+		height: 30vh;
+		width: 45vh;
+		text-align: center;
+	}
+
+	.media-thumbs-grid img {
+		box-shadow: 10px 10px 15px black;
+		width: auto;
+		height: -webkit-fill-available;
+	}
+	</style>
 	
 	<script>
 		new Vue({

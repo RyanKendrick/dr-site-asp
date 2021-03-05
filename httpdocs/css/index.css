@@ -130,6 +130,12 @@ button:hover {
 	color: white;
 }
 
+button:focus {
+	border-color: orange;
+	background-color: rgba(128, 128, 128, .5);
+	color: white;
+}
+
 button[onclick] {
 	cursor: pointer;
 }
@@ -145,6 +151,11 @@ button:disabled {
 }
 
 .dark button:hover {
+	background-color: white;
+	color: black;
+}
+
+.dark button:focus {
 	background-color: white;
 	color: black;
 }

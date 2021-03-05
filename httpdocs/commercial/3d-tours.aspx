@@ -6,9 +6,11 @@
 		
 		<div v-for="(item, index) in items">
 
-			<a :href="`#img${index}`">
-				<img class="grid-img" :src="item.thumbUrl">
-			</a>
+			<div class="thumbnail-box">
+				<a :href="`#img`">
+					<img class="grid-img" :src="item.thumbUrl">
+				</a>
+			</div>
 
 			<a href="#" class="lightbox" :id="`img${index}`">
 				<iframe width='853' height='480'
@@ -25,6 +27,13 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptsContent" runat="server">
 
+	<style>
+	.thumbnail-box {
+		height: 30vh;
+		width: 45vh;
+	}
+	</style>
+	
 	<script>
 
 		new Vue({
