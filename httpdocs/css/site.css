@@ -158,6 +158,7 @@ a[onclick] {
 	bottom: 0;
 	padding: 1em;
 	background: rgba(1, 1, 1, 0.8);
+	text-align: center;
 }
 
 /* Unhide the lightbox when it's the target */

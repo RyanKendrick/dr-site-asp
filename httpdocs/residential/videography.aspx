@@ -31,6 +31,12 @@
 		height: 30vh;
 		width: 45vh;
 	}
+
+	iframe {
+		margin-top: 10%;
+		width: 50rem;
+		height: 28rem;
+	}
 	</style>
 
 	<script>

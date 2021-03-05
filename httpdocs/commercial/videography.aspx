@@ -7,13 +7,13 @@
 		<div v-for="(item, index) in items">
 
 			<div class="thumbnail-box">
-				<a :href="`#img`">
+				<a :href="`#img${index}`">
 					<img class="grid-img" :src="item.thumbUrl">
 				</a>
 			</div>
 
 			<a href="#" class="lightbox" :id="`img${index}`">
-				<iframe width="420" height="315"
+				<iframe
 					:src="item.videoUrl">
 				</iframe>
 			</a>
@@ -26,10 +26,16 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptsContent" runat="server">
 	
-	<style>
+	<style scoped>
 	.thumbnail-box {
 		height: 30vh;
 		width: 45vh;
+	}
+
+	iframe {
+		margin-top: 10%;
+		width: 50rem;
+		height: 28rem;
 	}
 	</style>
 	
