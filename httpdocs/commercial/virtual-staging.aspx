@@ -28,6 +28,18 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptsContent" runat="server">
 	
+	<style scoped>
+		.thumbnail-box {
+			height: 30vh;
+			width: 45vh;
+		}
+	
+		.media-thumbs-grid img {
+			box-shadow: 10px 10px 15px black;
+			height: 100%;
+		}
+	</style>
+	
 	<script>
 
 		new Vue({

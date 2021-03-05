@@ -30,7 +30,6 @@
 		height: 30vh;
 		width: 45vh;
 	}
-	
 	</style>
 	
 	<script>

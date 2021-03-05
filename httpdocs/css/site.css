@@ -137,7 +137,7 @@ a[onclick] {
 }
 
 .media-thumbs-grid img {
-	box-shadow: 10px 10px 15px black;
+    box-shadow: 10px 10px 15px black;
     width: 100%;
     height: -webkit-fill-available;
 }
