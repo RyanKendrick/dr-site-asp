@@ -7,7 +7,7 @@ class MainNav extends HTMLElement {
 
             <div class="lower-left-nav-section">
                 <div class="navbar-wrapper-mid">
-                
+    
                     A Better Way to Order <b>Real Estate Media</b>
                 
                 </div>
