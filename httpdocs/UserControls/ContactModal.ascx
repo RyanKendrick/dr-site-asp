@@ -54,12 +54,12 @@
 					</select>
 				</div>
 				<div class="form-column">
-					<label for="company">Company Name</label>
+					<label for="company">Brokerage</label>
 					<input
 						type="text"
 						id="company"
 						name="company"
-						placeholder="Company Name"
+						placeholder=""
 						v-model="formData.company"/>
 				</div>
 			</div>
@@ -92,7 +92,7 @@
 				class="textarea"
 				id="message"
 				name="message"
-				placeholder="Write something.."
+				placeholder=""
 				required
 				v-model="formData.message"
 				></textarea>

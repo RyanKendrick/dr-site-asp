@@ -7,7 +7,7 @@
 		<div v-for="(item, index) in items">
 
 			<div class="thumbnail-box">
-				<a :href="`#img`">
+				<a :href="`#img${index}`">
 					<img class="grid-img" :src="item.thumbUrl">
 				</a>
 			</div>
