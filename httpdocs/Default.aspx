@@ -69,6 +69,10 @@ TagPrefix="uc1" TagName="MobileNav" %>
 					premium media options.
 				</p>
 
+				<p>
+					Check out our <a href="http://vrlportal.com" style="color: white;"><b><u>Booking Platform</u></b></a> 
+				</p>
+
 				<div class="btns">
 
 					<button onclick="openContactModal()">
