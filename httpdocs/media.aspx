@@ -7,7 +7,7 @@ TagPrefix="uc1" TagName="MediaTypes" %>
 
 	<div class="layout-section dark">
 		<div class="centered-container">
-			<h2>Stunning Visuals to Make Sure Your Listing/Asset Stands Out</h2>
+			<h2>Stunning Visuals to Make Sure </br>Your Listing/Asset Stands Out</h2>
 
 			<div class="media-blurb">
 				<b>Every team is unique in their needs and requirements.</b>
