@@ -10,7 +10,7 @@ TagPrefix="uc1" TagName="MobileNav" %>
 
 	<div style="display: flex; flex-direction: column;">
 		<img class="primary-logo" src="/assets/dr-logo.png"/>
-		<div> Powered by VR Listing inc. </div>
+		<div> Powered by VR Listing inc. <img height="10px;" src="/assets/vrl-logo.png" /> </div>
 	</div>
 
 	<uc1:MobileNav runat="server" ID="MobileNav"/>
