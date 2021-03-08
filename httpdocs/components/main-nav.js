@@ -42,7 +42,7 @@ class MainNav extends HTMLElement {
             font-size: 19px;
             color: black;
 			position: absolute;
-			top: 35px;
+			top: 20px;
 			left: 80px;
 			white-space: nowrap;
 			z-index:100;
