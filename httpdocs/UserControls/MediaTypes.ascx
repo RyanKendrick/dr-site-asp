@@ -9,12 +9,12 @@
 <div id="residentialMediaContainer" class="media-grid">
 
 	<div class="photography">
-		<a class="media-grid-btn" href="/residential/photography">
+		<a class="media-grid-btn" href="/residential/photography" alt="Real Estate Photography">
 			<span>Photography</span>
 		</a>
 	</div>
 	<div class="drone-services">
-		<a class="media-grid-btn" href="/residential/drone">
+		<a class="media-grid-btn" href="/residential/drone" alt="Real Estate Drone photography">
 			<span>Drone Services</span>
 		</a>
 	</div>

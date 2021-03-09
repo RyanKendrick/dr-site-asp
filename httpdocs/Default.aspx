@@ -10,11 +10,11 @@ TagPrefix="uc1" TagName="MobileNav" %>
 
 	<div style="display: flex;
     flex-direction: column;">
-		<img class="primary-logo" src="/assets/dr-logo.png"/>
+		<img class="primary-logo" src="/assets/dr-logo.png" alt="Digital Resolution"/>
 		<div style="text-align: right;
 		display: flex;
 		color: #929292;
-		padding-left: 1.2vh;"> Powered by VR Listing <img style="height: 3vh; padding-left: 5px;" src="/assets/vrl-logo.png" /> </div>
+		padding-left: 1.2vh;"> Powered by VR Listing <img style="height: 3vh; padding-left: 5px;" src="/assets/vrl-logo.png" alt="VR Listing"/> </div>
 	</div>
 
 	<uc1:MobileNav runat="server" ID="MobileNav"/>
@@ -22,7 +22,7 @@ TagPrefix="uc1" TagName="MobileNav" %>
 	<div class="xs-screen-hide">
 		<a href="tel:1-888-334-5478">1-888-334-5478<span class="sml-screen-hide"> (LIST)</span></a>
 		<div class="sml-screen-hide">
-			<a href="http://vrlportal.com/Account/Login">
+			<a href="http://vrlportal.com/Account/Login" alt="Login to http://www.vrlportal.com">
 				<b>
 					CLIENT LOGIN
 				</b>
@@ -51,8 +51,8 @@ TagPrefix="uc1" TagName="MobileNav" %>
 		<div class="platform-reveal">
 			<div class="platform-reveal-left" style="flex-basis: 40%; flex-grow: 1; text-align: center;">
 				<h2>
-					Optimize your Real Estate initiatives <br/>
-					with our premium media options <br/>
+					Optimize your Real Estate initiatives
+					with our premium media options
 					and management.
 				</h2>
 
@@ -85,13 +85,13 @@ TagPrefix="uc1" TagName="MobileNav" %>
 
 			<div id="screenshotsUI">
 				<div>
-					<img class="portal-screenshot" src="/assets/screenshots/select-services.png">
+					<img class="portal-screenshot" src="/assets/screenshots/select-services.png" alt="Order Real Estate Media">
 				</div>
 				<div>
-					<img class="portal-screenshot" src="/assets/screenshots/schedule.png">
+					<img class="portal-screenshot" src="/assets/screenshots/schedule.png" alt="Schedule Real Estate Media">
 				</div>
 				<div>
-					<img class="portal-screenshot" src="/assets/platform-img-1.png">
+					<img class="portal-screenshot" src="/assets/platform-img-1.png" alt="Review Real Estate Media">
 				</div>
 			</div>
 		</div>
@@ -248,7 +248,7 @@ TagPrefix="uc1" TagName="MobileNav" %>
 				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/kw.png?raw=true"/>
 				<img src="/assets/quadreal-logo.jpeg"/>
 				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/chestertons.png?raw=true"/>
-				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/harveyKalles.jpg?raw=true"/>
+				<img src="/assets/chestnut-park.png"/>
 				<img src="/assets/ay-logo.png"/>
 			</div>
 		</div>
