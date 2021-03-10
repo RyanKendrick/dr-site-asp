@@ -34,7 +34,7 @@
 	.media-thumbs-grid img {
 		box-shadow: 10px 10px 15px black;
 		width: auto;
-		height: -webkit-fill-available;
+		height: 35vh;
 	}
 	</style>
 	
