@@ -14,7 +14,7 @@ TagPrefix="uc1" TagName="MobileNav" %>
 		<div style="text-align: right;
 		display: flex;
 		color: #929292;
-		padding-left: 1.2vh;"> Powered by VR Listing <img style="height: 3vh; padding-left: 5px;" src="/assets/vrl-logo.png" alt="VR Listing"/> </div>
+		padding-left: 1.2vh;"> Powered by VR Listing <img style="height: 3vh; padding-left: 5px;" src="/assets/vrl-logo.png" alt="VR Listing Logo"/> </div>
 	</div>
 
 	<uc1:MobileNav runat="server" ID="MobileNav"/>
@@ -113,43 +113,43 @@ TagPrefix="uc1" TagName="MobileNav" %>
 		<div class="features">
 
 			<a href="/how-it-works#order-steps" class="feature-item">
-				<img class="feature-item-icon" src="/assets/icons/alarm-clock-128.png" alt="">
+				<img class="feature-item-icon" src="/assets/icons/alarm-clock-128.png" alt="Order Real Estate Media">
 				<span>3 Step Ordering</span>
 			</a>
 
 			<a href="/how-it-works#qa-assurance" class="feature-item">
-				<img class="feature-item-icon" src="/assets/icons/approval-128.png" alt="">
+				<img class="feature-item-icon" src="/assets/icons/approval-128.png" alt="Product Quality Control">
 				<span>Product Quality</span>
 				<span>Control & Assurance</span>
 			</a>
 
 			<a href="/how-it-works#scaleable" class="feature-item">
-				<img class="feature-item-icon" src="/assets/icons/combo-128.png" alt="">
+				<img class="feature-item-icon" src="/assets/icons/combo-128.png" alt="Scaleable Solutions">
 				<span>Platform Scalability</span>
 			</a>
 			<a href="/how-it-works#notifications" class="feature-item">
-				<img class="feature-item-icon" src="/assets/icons/speech-bubble-5-128.png" alt="">
+				<img class="feature-item-icon" src="/assets/icons/speech-bubble-5-128.png" alt="Notifiations">
 				<span>Real-Time Notifications</span>
 			</a>
 
 			<a href="/how-it-works#internal" class="feature-item">
-				<img class="feature-item-icon" src="/assets/icons/conference-128.png" alt="">
+				<img class="feature-item-icon" src="/assets/icons/conference-128.png" alt="Incoiving Management">
 				<span>Internal Team</span>
 				<span>and Invoincing Managment</span>
 			</a>
 
 			<a href="/how-it-works#customize" class="feature-item">
-				<img class="feature-item-icon" src="/assets/icons/settings-7-128.png" alt="">
+				<img class="feature-item-icon" src="/assets/icons/settings-7-128.png" alt="Product Customization">
 				<span>In-Depth Product</span>
 				<span>Customization Options</span>
 			</a>
 
 			<a href="/how-it-works#manage" class="feature-item">
-				<img class="feature-item-icon" src="/assets/icons/search-2-128.png" alt="">
+				<img class="feature-item-icon" src="/assets/icons/search-2-128.png" alt="Manage and Review Media">
 				<span>Manage & Review Products</span>
 			</a>
 			<a href="/how-it-works#integration" class="feature-item">
-				<img class="feature-item-icon" src="/assets/icons/plug-128.png" alt="">
+				<img class="feature-item-icon" src="/assets/icons/plug-128.png" alt="Platform Integration">
 				<span>Simple Technician </span>
 				<span>& Studio Integration</span>
 			</a>
@@ -171,7 +171,7 @@ TagPrefix="uc1" TagName="MobileNav" %>
 			<div class="steps-column">
 				<div class="step-num">1</div>
 				<div>
-					<img class="steps-img align-right slide-in" src="/assets/macbook-step1.png" alt="">
+					<img class="steps-img align-right slide-in" src="/assets/macbook-step1.png" alt="Select Real Estate Media">
 				</div>
 				<div class="step-title">Select Your Media</div>
 				<div>Choose from our comprehensive list <br/> of premium media options</div>
@@ -180,7 +180,7 @@ TagPrefix="uc1" TagName="MobileNav" %>
 			<div class="steps-column" style="text-align: center;">
 				<div class="step-num">2</div>
 				<div>
-					<img class="steps-img align-right slide-in" src="/assets/macbook-step2.png" alt="">
+					<img class="steps-img align-right slide-in" src="/assets/macbook-step2.png" alt="Order and Schedule Real Estate Media">
 				</div>
 				<div class="step-title">Schedule & Place Order</div>
 				<div>Schedule with Ease and Avoid <br/> the Redundant Back & Forths</div>
@@ -189,7 +189,7 @@ TagPrefix="uc1" TagName="MobileNav" %>
 			<div class="steps-column">
 				<div class="step-num">3</div>
 				<div>
-					<img class="steps-img align-right slide-in" src="/assets/macbook-step3.png" alt="">
+					<img class="steps-img align-right slide-in" src="/assets/macbook-step3.png" alt="Review and Manage Real Estate Media Orders">
 				</div>
 				<div class="step-title">Review & Manage</div>
 				<div>Track Your Progress & Easily Manage <br/>Media in your Media Portal</div>
@@ -231,25 +231,25 @@ TagPrefix="uc1" TagName="MobileNav" %>
 
 		<div id="clientsUI">
 			<div>
-				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/forestHill.png?raw=true"/>
-				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/colliers.png?raw=true"/>
-				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/royalLepage.jpg?raw=true"/>
-				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/harveyKalles.jpg?raw=true"/>
-				<img src="/assets/cushman.jpg"/>
+				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/forestHill.png?raw=true"/>
+				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/colliers.png?raw=true"/>
+				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/royalLepage.jpg?raw=true"/>
+				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/harveyKalles.jpg?raw=true"/>
+				<img alt="Client Logo" src="/assets/cushman.jpg"/>
 			</div>
 			<div>
-				<img src="/assets/bentall.jpg"/>
-				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/blueElephant.png?raw=true"/>
-				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/bosley.jpg?raw=true"/>
-				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/century21.png?raw=true"/>
-				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/kw.png?raw=true"/>
+				<img alt="Client Logo" src="/assets/bentall.jpg"/>
+				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/blueElephant.png?raw=true"/>
+				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/bosley.jpg?raw=true"/>
+				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/century21.png?raw=true"/>
+				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/kw.png?raw=true"/>
 			</div>
 			<div>
-				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/kw.png?raw=true"/>
-				<img src="/assets/quadreal-logo.jpeg"/>
-				<img src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/chestertons.png?raw=true"/>
-				<img src="/assets/chestnut-park.png"/>
-				<img src="/assets/ay-logo.png"/>
+				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/kw.png?raw=true"/>
+				<img alt="Client Logo" src="/assets/quadreal-logo.jpeg"/>
+				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/chestertons.png?raw=true"/>
+				<img alt="Client Logo" src="/assets/chestnut-park.png"/>
+				<img alt="Client Logo" src="/assets/ay-logo.png"/>
 			</div>
 		</div>
 

@@ -19,7 +19,7 @@
 		</a>
 	</div>
 	<div class="renderings">
-		<a class="media-grid-btn" href="/residential/renderings">
+		<a class="media-grid-btn" href="/residential/renderings" alt="Real Estate Renderings">
 			<span>Renderings</span>
 		</a>
 	</div>

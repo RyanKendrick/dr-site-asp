@@ -322,6 +322,18 @@ TagPrefix="uc1" TagName="MobileNav" %>
 					<div class="client-title">Marketing Specialist, Residential , Bentall Green Oak</div>
 				</div>
 			</div>
+			<div>
+				<div>
+					<div class="client-quote">
+						"VR Listing has completely elevated not only our photography but all
+						marketing across our portfolio. Their photography and 3D tours are consistent
+						across the country and with the implementation of their new portal,
+						booking shoots has never been easier."
+					</div>
+					<div class="client-name">- Alexandra Foggetti</div>
+					<div class="client-title">Marketing Specialist, Residential , Bentall Green Oak</div>
+				</div>
+			</div>
 		</div>
 
 	</div>
