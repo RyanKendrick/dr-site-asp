@@ -8,7 +8,7 @@
 
 			<div class="thumbnail-box">
 				<a :href="`#img${index}`">
-					<img class="grid-img" :src="img.thumbUrl">
+					<img class="grid-img" :src="img.thumbUrl" alt="Commercial Real Estate Renderings">
 				</a>
 			</div>
 

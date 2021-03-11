@@ -17,8 +17,8 @@
 		<img-comparison-slider
 			v-for="item in items">
 
-			<img class="staging-img" slot="before" :src="item.url1"/>
-			<img class="staging-img" slot="after" :src="item.url2"/>
+			<img class="staging-img" alt="Commercial Virtual Renovation" slot="before" :src="item.url1"/>
+			<img class="staging-img" alt="Commercial Virtual Renovation" slot="after" :src="item.url2"/>
 
 		</img-comparison-slider>
 
