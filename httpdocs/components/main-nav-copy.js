@@ -14,7 +14,7 @@ class MainNav extends HTMLElement {
     
                 
                 
-                </div>   
+            
             </div>
             
         </div>
