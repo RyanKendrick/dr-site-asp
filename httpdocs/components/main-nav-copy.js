@@ -11,10 +11,7 @@ class MainNav extends HTMLElement {
                     A Better Way to Order <b>Real Estate Media</b>
                 
                 </div>
-    
-                
-                
-            
+           
             </div>
             
         </div>
