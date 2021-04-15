@@ -14,7 +14,7 @@ TagPrefix="uc1" TagName="MobileNav" %>
 		<div style="text-align: right;
 		display: flex;
 		color: #929292;
-		padding-left: 1.2vh;"> Powered by VR Listing <img style="height: 3vh; padding-left: 5px;" src="/assets/vrl-logo.png" alt="VR Listing Logo"/> </div>
+		padding-left: 1.2vh;"> Powered by VR Listing <img style="height: 3vh; padding-left: 5px;" src="/assets/vrl-logo.png" alt="VR Listing"/> </div>
 	</div>
 
 	<uc1:MobileNav runat="server" ID="MobileNav"/>
@@ -234,14 +234,14 @@ TagPrefix="uc1" TagName="MobileNav" %>
 				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/forestHill.png?raw=true"/>
 				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/colliers.png?raw=true"/>
 				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/royalLepage.jpg?raw=true"/>
-				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/harveyKalles.jpg?raw=true"/>
+				<img alt="Client Logo" src="/assets/HKRE-Horizontal-Logo-Black.png"/>
 				<img alt="Client Logo" src="/assets/cushman.jpg"/>
 			</div>
 			<div>
 				<img alt="Client Logo" src="/assets/bentall.jpg"/>
 				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/blueElephant.png?raw=true"/>
 				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/bosley.jpg?raw=true"/>
-				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/century21.png?raw=true"/>
+				<img alt="Client Logo" src="/assets/Century21-nav-logo.png"/>
 				<img alt="Client Logo" src="https://github.com/RyanKendrick/listbuddyMockup/blob/master/media-homepage/clientLogos/kw.png?raw=true"/>
 			</div>
 			<div>

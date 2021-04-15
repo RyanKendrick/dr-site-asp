@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="C#" %>
 
 <div class="btns" style="margin-bottom:var(--gap-l)">
-	<button autofocus onclick="showMarketMedia(true)">Residential</button>
+	<button onclick="showMarketMedia(true)">Residential</button>
 
 	<button onclick="showMarketMedia(false)">Commercial</button>
 </div>
