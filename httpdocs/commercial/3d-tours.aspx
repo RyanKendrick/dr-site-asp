@@ -63,7 +63,7 @@
 						},
 						{
 							thumbUrl: "/assets/matterport-comm/06.png",
-							modelUrl: "https://my.matterport.com/show/?m=h5kgWGsyCs5"
+							modelUrl: "https://my.matterport.com/show/?m=MK7a6EtS2wb"
 						},
 						{
 							thumbUrl: "/assets/matterport-comm/07.png",
@@ -75,7 +75,7 @@
 						},
 						{
 							thumbUrl: "/assets/matterport-comm/09.png",
-							modelUrl: "https://my.matterport.com/show/?m=Eco8oCjC54w"
+							modelUrl: "https://my.matterport.com/show/?m=Z2xp5NAzsS6"
 						}
 					]
 				}
