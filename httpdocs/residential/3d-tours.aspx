@@ -28,6 +28,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ScriptsContent" runat="server">
 
 	<style scoped>
+	
 	.thumbnail-box {
 		height: 30vh;
 		width: 45vh;
