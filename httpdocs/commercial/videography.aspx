@@ -77,6 +77,10 @@
 						{
 							thumbUrl: "/assets/videos/comm/135yorkville.png",
 							videoUrl: "https://www.youtube.com/embed/-Aer8djIZdI"
+						},
+						{
+							thumbUrl: "/assets/videos/comm/5025-creekbank.png",
+							videoUrl: "https://www.youtube.com/embed/-2impbQED0ig"
 						}
 					]
 				}
