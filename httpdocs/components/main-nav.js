@@ -62,9 +62,9 @@ class MainNav extends HTMLElement {
             position: relative;
         }
 
-.selected{
-z-index:-10;
-}
+        .selected{
+            z-index:-10;
+        }
         
         /* Pseudo-element requires '::' */
 
