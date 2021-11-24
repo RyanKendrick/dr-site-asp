@@ -97,7 +97,7 @@
 				v-model="formData.message"
 				></textarea>
 
-			<%--<div class="g-recaptcha" data-sitekey="6LcgFiMaAAAAAHBPnsu897ZuAxf5PyUPnl34Hpq3"></div>--%>
+		
 
 			<div class="btns">
 
